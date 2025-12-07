@@ -143,7 +143,7 @@ body {
 }
 
 .logo-text p {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
 }
 
@@ -251,13 +251,13 @@ body {
     padding: 0.1875rem 0.5rem;
     background: var(--bg-tertiary);
     border-radius: 100px;
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
     flex-shrink: 0;
 }
 
 .recipe-description {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-secondary);
     margin-top: 0.375rem;
     display: -webkit-box;
@@ -295,7 +295,7 @@ body {
 }
 
 .details-section h4 {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-muted);
     text-transform: uppercase;
@@ -318,7 +318,7 @@ body {
 }
 
 .ingredients-list li {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-secondary);
     display: flex;
     align-items: center;
@@ -343,7 +343,7 @@ body {
 .instructions-list li {
     display: flex;
     gap: 0.5rem;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-secondary);
 }
 
@@ -373,7 +373,7 @@ body {
     border: none;
     border-top: 1px solid var(--border-default);
     color: var(--text-muted);
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -426,7 +426,7 @@ body {
 }
 
 .chat-header-content h2 {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
     font-weight: 600;
     color: var(--text-primary);
     display: flex;
@@ -462,7 +462,7 @@ body {
     border: 1px solid var(--border-default);
     border-radius: 8px;
     color: var(--text-secondary);
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -526,7 +526,7 @@ body {
     max-width: 85%;
     padding: 0.875rem 1rem;
     border-radius: 12px;
-    font-size: 1rem;
+    font-size: 0.9375rem;
     line-height: 1.6;
     animation: messageAppear 0.3s ease-out;
 }
@@ -615,10 +615,10 @@ body {
     font-weight: 600;
 }
 
-.message.assistant h2 { font-size: 1.25rem; }
-.message.assistant h3 { font-size: 1.125rem; }
-.message.assistant h4 { font-size: 1.0625rem; }
-.message.assistant h5 { font-size: 1rem; }
+.message.assistant h2 { font-size: 1.1875rem; }
+.message.assistant h3 { font-size: 1.0625rem; }
+.message.assistant h4 { font-size: 1rem; }
+.message.assistant h5 { font-size: 0.9375rem; }
 
 .message.assistant h2:first-child,
 .message.assistant h3:first-child,
@@ -632,7 +632,7 @@ body {
     padding: 0.125rem 0.375rem;
     border-radius: 4px;
     font-family: 'SF Mono', Monaco, 'Courier New', monospace;
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
     color: var(--text-primary);
 }
 
@@ -649,7 +649,7 @@ body {
     background: none;
     padding: 0;
     border-radius: 0;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     line-height: 1.5;
     white-space: pre;
 }
@@ -734,14 +734,14 @@ body {
 }
 
 .welcome-message h3 {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
 }
 
 .welcome-message p {
-    font-size: 1rem;
+    font-size: 0.9375rem;
     margin-bottom: 1.5rem;
 }
 
@@ -757,7 +757,7 @@ body {
     background: var(--bg-secondary);
     border: 1px solid var(--border-default);
     border-radius: 100px;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     cursor: pointer;
     transition: all 0.2s ease;
@@ -858,7 +858,7 @@ body {
     }
 
     .soup-name {
-        font-size: 0.8125rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -1108,7 +1108,7 @@ a:focus-visible {
     }
 
     .chat-header-content h2 {
-        font-size: 1.0625rem;
+        font-size: 1rem;
     }
 
     .recipes-toggle span {
@@ -1338,7 +1338,7 @@ a:focus-visible {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     font-weight: 600;
     color: var(--text-muted);
     text-transform: uppercase;
@@ -1367,7 +1367,7 @@ a:focus-visible {
 }
 
 .settings-card p {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     line-height: 1.5;
     margin-bottom: 0.75rem;
@@ -1383,7 +1383,7 @@ a:focus-visible {
 }
 
 .about-list li, .howto-list li {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     margin-bottom: 0.375rem;
     line-height: 1.4;
@@ -1411,7 +1411,7 @@ a:focus-visible {
 }
 
 .config-label {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     font-weight: 500;
     color: var(--text-muted);
     text-transform: uppercase;
@@ -1426,7 +1426,7 @@ a:focus-visible {
 
 /* System Prompt Display */
 .prompt-intro {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-muted);
     margin-bottom: 0.75rem;
 }
@@ -1436,7 +1436,7 @@ a:focus-visible {
     border: 1px solid var(--border-default);
     border-radius: 8px;
     padding: 0.875rem;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-secondary);
     line-height: 1.5;
     max-height: 200px;
@@ -1444,7 +1444,7 @@ a:focus-visible {
 }
 
 .system-prompt-display p {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     margin-bottom: 0.5rem;
 }
 
@@ -1454,13 +1454,13 @@ a:focus-visible {
 }
 
 .system-prompt-display li {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     margin-bottom: 0.25rem;
 }
 
 /* Credits Section */
 .credits-text {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
 }
@@ -1474,7 +1474,7 @@ a:focus-visible {
     align-items: center;
     color: var(--accent-color);
     text-decoration: none;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-weight: 500;
     transition: color 0.2s ease;
 }
@@ -1490,7 +1490,7 @@ a:focus-visible {
 }
 
 .terms-text {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-secondary);
     margin-bottom: 0.75rem;
 }
@@ -1501,7 +1501,7 @@ a:focus-visible {
 }
 
 .terms-list li {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
     margin-bottom: 0.5rem;
     line-height: 1.5;
@@ -1512,7 +1512,7 @@ a:focus-visible {
 }
 
 .terms-footer {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
     font-style: italic;
     margin-bottom: 0 !important;
@@ -1589,7 +1589,7 @@ a:focus-visible {
     display: flex;
     align-items: center;
     gap: 0.25rem;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     color: var(--text-secondary);
     flex-wrap: wrap;
 }
