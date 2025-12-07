@@ -514,7 +514,7 @@ body {
     flex: 1;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: calc(5.5rem + env(safe-area-inset-top, 0px)) calc(max(1.5rem, (100% - 900px) / 2)) calc(5rem + env(safe-area-inset-bottom, 0px));
+    padding: calc(6.5rem + env(safe-area-inset-top, 0px)) calc(max(1.5rem, (100% - 900px) / 2)) calc(6.5rem + env(safe-area-inset-bottom, 0px));
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -1120,7 +1120,7 @@ a:focus-visible {
     }
 
     .chat-messages {
-        padding: calc(4.5rem + env(safe-area-inset-top, 0px)) 1rem calc(4.5rem + env(safe-area-inset-bottom, 0px));
+        padding: calc(5.5rem + env(safe-area-inset-top, 0px)) 1rem calc(5.5rem + env(safe-area-inset-bottom, 0px));
     }
 
     .chat-input-area {
