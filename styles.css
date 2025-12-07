@@ -426,7 +426,7 @@ body {
 }
 
 .chat-header-content h2 {
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 600;
     color: var(--text-primary);
     display: flex;
@@ -441,7 +441,7 @@ body {
 }
 
 .chat-header-content p {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: var(--text-muted);
     margin-top: 0.25rem;
 }
@@ -526,8 +526,8 @@ body {
     max-width: 85%;
     padding: 0.875rem 1rem;
     border-radius: 12px;
-    font-size: 0.875rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.6;
     animation: messageAppear 0.3s ease-out;
 }
 
@@ -615,10 +615,10 @@ body {
     font-weight: 600;
 }
 
-.message.assistant h2 { font-size: 1.125rem; }
-.message.assistant h3 { font-size: 1rem; }
-.message.assistant h4 { font-size: 0.9375rem; }
-.message.assistant h5 { font-size: 0.875rem; }
+.message.assistant h2 { font-size: 1.25rem; }
+.message.assistant h3 { font-size: 1.125rem; }
+.message.assistant h4 { font-size: 1.0625rem; }
+.message.assistant h5 { font-size: 1rem; }
 
 .message.assistant h2:first-child,
 .message.assistant h3:first-child,
@@ -632,7 +632,7 @@ body {
     padding: 0.125rem 0.375rem;
     border-radius: 4px;
     font-family: 'SF Mono', Monaco, 'Courier New', monospace;
-    font-size: 0.8125rem;
+    font-size: 0.9375rem;
     color: var(--text-primary);
 }
 
@@ -734,14 +734,14 @@ body {
 }
 
 .welcome-message h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
 }
 
 .welcome-message p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
 }
 
@@ -817,7 +817,7 @@ body {
 }
 
 .soup-name {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     font-weight: 500;
     color: var(--text-secondary);
     text-align: center;
@@ -858,7 +858,7 @@ body {
     }
 
     .soup-name {
-        font-size: 0.6875rem;
+        font-size: 0.8125rem;
     }
 }
 
@@ -1108,7 +1108,7 @@ a:focus-visible {
     }
 
     .chat-header-content h2 {
-        font-size: 0.9375rem;
+        font-size: 1.0625rem;
     }
 
     .recipes-toggle span {
