@@ -10,7 +10,7 @@ AI-powered soup cooking assistant with 8 delicious recipes. Get step-by-step gui
 - **8 Curated Recipes** - Lasagna Soup, Tortellini Soup, Cheeseburger Soup, Potato Sausage Soup, Baked Ziti Soup, Boursin Soup, Chicken Gnocchi Soup, and Chicken Alfredo Soup
 - **Step-by-Step Guidance** - Detailed cooking instructions with timing cues
 - **Ingredient Help** - Substitution suggestions and shopping tips
-- **PWA Support** - Install on iOS/Android home screen for app-like experience
+- **Home Screen Install** - Add to iOS/Android home screen manually for app-like experience
 - **Dark/Light Theme** - Toggle between themes with persistent preference
 - **Mobile Optimized** - Responsive design with floating input bar and keyboard handling
 - **Session Persistence** - Chat history saved during your session
@@ -63,13 +63,12 @@ AI-powered soup cooking assistant with 8 delicious recipes. Get step-by-step gui
 ```
 soup/
 ├── index.html          # Main HTML file
-├── app.js              # Frontend JavaScript (chat, UI, PWA)
+├── app.js              # Frontend JavaScript (chat, UI, themes)
 ├── styles.css          # All styles (light/dark themes)
 ├── api.php             # API endpoint (handles OpenAI requests)
 ├── config.php          # Configuration and system prompt
 ├── security.php        # Security module (rate limiting, validation)
-├── sw.js               # Service worker for PWA
-├── manifest.json       # PWA manifest
+├── manifest.json       # PWA manifest (for home screen icons)
 ├── .env                # Environment variables (not in repo)
 ├── .env.example        # Environment template
 └── [icons]             # Various PNG/SVG icons
@@ -133,7 +132,7 @@ data: [DONE]
 }
 ```
 
-## PWA Installation
+## Add to Home Screen
 
 ### iOS (Safari)
 1. Open the app in Safari
@@ -144,6 +143,8 @@ data: [DONE]
 1. Open the app in Chrome
 2. Tap the menu (⋮)
 3. Select "Add to Home Screen"
+
+The app works great as a website but can also be added to your home screen for quick access with a custom icon.
 
 ## Development
 
